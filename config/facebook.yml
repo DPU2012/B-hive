@@ -1,0 +1,10 @@
+development: 
+	app_id: 393160320721597
+	secret_key: bbaf9cd1aa2c6716d786c99cbfd875f9
+	scope: user_about_me,user_activities,user_birthday,user_education_history,
+		user_events,user_groups,user_hometown,user_interests,user_likes, publish_stream, manage_notifications, manage_friendlists, read_stream, read_requests, read_mailbox, read_friendlists, user_status, user_videos, friends_videos, friends_status, user_relationships, friends_relationships, user_photos, friends_photos
+	callback_url: http://localhost:3000/
+test:
+	<<: *defaults
+production:
+	<<: *defaults
